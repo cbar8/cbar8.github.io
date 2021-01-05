@@ -1,3 +1,28 @@
 #work {
-  color: red;
+  display: none;
+
+  height: 85vh;
+}
+
+#work div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#work h2,
+#work h3 {
+  text-align: center;
+  padding: 2vh;
+  text-transform: uppercase;
+}
+
+#work article {
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 5px;
+  width: 30%;
+  box-shadow: 2px 2px 10px 0 rgb(228, 228, 228);
+}
+
+#work p {
+  padding: 10px 20px 20px 20px;
 }
