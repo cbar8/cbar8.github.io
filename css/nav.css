@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vh 2vw;
+  font-size: 1.2rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li,
+nav a {
+  padding: 2vh 2vw;
+}

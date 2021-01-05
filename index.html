@@ -1,22 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/sites.css">
 </head>
+
 <body>
 
+    <header>
+        <div>LOGO</div>
+        <div>Welcome! Thanks for visiting my site</div>
+    </header>
     <nav>
-        <ul>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Sample Sites</a></li>
-            <li><a href="#">Contact Information</a></li>
-            <li><a href="https://cbar8.github.io/reactv001/">React Site</a></li>
+        <ul class="links">
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Sample sites</a></li>
+            <li><a href="#">Contact information</a></li>
         </ul>
     </nav>
 
-    <script src="./index.js"></script>
+    <section id="about">
+        <h3>ABOUT ME</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Consequuntur sed voluptates
+            soluta ratione dolore maiores sunt iste facere
+            eligendi distinctio aperiam sit, itaque quod.
+            Iste reprehenderit veritatis facere nemo nam!
+        </p>
+    </section>
+
+    <section id="work">
+        <h3>SAMPLE SITES</h3>
+        <article>
+            <a href="https://cbar8.github.io/reactv001/">
+                <h3>React Site</h3>
+            </a>
+            <p>A single page application made in React Js</p>
+        </article>
+        <article>
+            <a href="#">
+                <h3>Title 2</h3>
+            </a>
+            <p>WIP</p>
+        </article>
+        <article>
+            <a href="#">
+                <h3>Title 3</h3>
+            </a>
+            <p>WIP</p>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h3>CONTACT</h3>
+        <div>Will probably change this into a form</div>
+        <div>and change the links into logos`   </div>
+        <ul class="links">
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Work Email</a></li>
+            <li><a href="#">Github</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        2021 &copy; Chad's Site
+    </footer>
+
+    <script src="./js/index.js"></script>
 </body>
+
 </html>
