@@ -1,7 +1,6 @@
 #work {
-  display: none;
-
-  height: 85vh;
+  padding-top: 15vh;
+  height: 94.5vh;
 }
 
 #work div {
@@ -24,5 +23,6 @@
 }
 
 #work p {
+  text-align: justify;
   padding: 10px 20px 20px 20px;
 }

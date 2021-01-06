@@ -1,4 +1,20 @@
 #contact {
-  height: 82vh;
+  height: 94.5vh;
   background-color: #eee;
+  /* placement */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.topContact {
+  border: 1px solid red;
+  width: 40vw;
+  height: 70vh;
+}
+
+.bottomContact {
+  width: 40vw;
+  height: 70vh;
+  border: 1px solid green;
 }

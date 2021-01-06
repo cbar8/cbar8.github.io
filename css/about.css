@@ -1,17 +1,12 @@
 #about {
-  height: 81.5vh;
+  height: 84.1vh;
   background-color: whitesmoke;
   box-sizing: border-box;
-  /* TOGGLE TO SHOW */
-  /* width: 100%; */
-  /* padding: 5vh 5vw; */
-  /* border: 1px solid black; */
-  width: 0%;
-  display: none;
+  width: 98.93vw;
+  padding: 5vh 5vw;
 }
 
 #about h3,
 #about p {
-  /* start effect after x seconds */
-  display: none;
+  width: 1000px;
 }
