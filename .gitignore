@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# container for test codes
+reference.txt
